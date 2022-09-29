@@ -14,6 +14,6 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-
+            ViewData["MachineName"] = System.Environment.MachineName;
     }
 }
